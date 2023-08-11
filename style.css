@@ -52,8 +52,15 @@
 }
 
 #custom-modal-iframe{
-    width: 700px;
-    height: 560px;
+    max-width: 96vw;
+    max-height: 80vh;
     background-color: white;
+}
+
+@media (min-width: 1000px) {
+    #custom-modal-iframe{
+        max-width: 700px;
+        max-height: 560px;
+    }
 }
 
