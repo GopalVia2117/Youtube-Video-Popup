@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop up in Vanilla Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button data-src="https://www.youtube.com/embed/NGPcxIrFJY0" class="trigger-button">Video1</button>
+    <button data-src="https://www.youtube.com/embed/VMvTE4PbWTk" class="trigger-button">Video2</button>
+    <button data-src="https://www.youtube.com/embed/hbeyGXaTSQE" class="trigger-button">Video3</button>
+
+    <div id="custom-modal">
+        <div id="custom-modal-body">
+            <button id="custom-modal-close-btn">x</button>
+            <iframe id="custom-modal-iframe" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
